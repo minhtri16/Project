@@ -1,0 +1,938 @@
+<div class="container" style="max-width: 1134px;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#fff !important ;">
+    <div class="container-fluid d-flex">
+      <!-- Button trigger offcanvas -->
+      <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Logo+brand -->
+      <a class="navbar-brand d-flex align-items-center ms-2 me-auto" href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCAEmp2WoPDfu7IDue7xOWvEgWJJRqnfPW_Q&"
+          alt="Logo" width="130" height="36" class="d-none d-lg-inline-block">
+      </a>
+
+      <!-- Offcanvas -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <!-- Links -->
+          <ul class="navbar-nav" style="margin-left:20px">
+            <li class="nav-item dropdown">
+              <a class="nav-link mg-lg-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Catalog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mg-lg-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                How it works
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mg-lg-2 active" aria-current="page" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mg-lg-2" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mg-lg-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Services</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Transfer Products</a></li>
+                <li><a class="dropdown-item" href="#">Order In Bulk</a></li>
+                <li><a class="dropdown-item" href="#">Experts Program</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mg-lg-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Need help?</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Help Center</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-content-group auth-buttons">
+        <div class="button-header" tabindex="0">
+          <button class="button secondary medium"> 
+            <div class="custom-content">Login</div>
+          </button>
+        </div>
+        <div class="button-header" tabindex="0">
+          <button class="button primary medium"> 
+            <div class="custom-content">Sign up</div>
+          </button>
+        </div>
+      </div>
+      <!-- <div class="header-button">
+        <div class="d-flex">
+          <button type="button" class="btn btn-outline-primary me-2"
+            style="background-color: #fff; color: #000; border-radius: 2px;">Login</button>
+          <button type="button" class="btn btn-primary"
+            style="background-color: #28a745; color: #fff; border-radius: 2px;">Sign Up</button>
+        </div>
+      </div> -->
+    </div>
+  </nav>
+  <div class="catalog-layout">
+    <div class="container full-height">
+      <div class="search-and-currency">
+        <div class="search-bar container mt-4">
+          <div class="row">
+            <div class="col-lg-10">
+              <input class="w-100" type="text"
+                placeholder="Search for products, brands, categories, and print providers">
+            </div>
+            <div class="currency-switche col-lg-2">
+              <div class="d-flex align-items-center" style="justify-content: end;">
+                <span class="currency-switcher-title d-none d-md-block">Currency</span>
+                <div class="switcher-button">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>USA</option>
+                    <option value="1">VN</option>
+                    <option value="2">TQ</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="product-list" style="display: flex; flex-direction:column">
+      <div class="breadcrums" style="display: block; margin: bottom 1.5em;">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Catalog</a></li>
+            <li class="breadcrumb-item"><a href="#">Men's Clothing</a></li>
+            <li class="breadcrumb-item active" aria-current="page">T-shirts</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="page-content full-height" style="display:flex; flex-direction:column; flex: grow 1;">
+        <div class="catalog-product">
+          <div class="header-title">
+            <h1 class="tittle">T-shirts</h1>
+          </div>
+          <div class="csm-content">
+            <section class="seo-content-wrapper top ng-star-inserted">
+              <div class="body ng-star-inserted">
+                <p>Men's custom t-shirts are classic wardrobe staples that fit every style, setting, or occasion. Whether a casual brunch, a business meeting, or Sunday golf with the boys – there's a tee for everything. Explore multiple neck and sleeve types (long, short, crew, V), various printing methods (DTG or sublimation), different cuts (oversized, raglan, 
+                  <a href="/app/s/custom-pocket-t-shirts">pocket t-shirts</a>), and materials 
+                  (<a href="/app/products/6/gildan/unisex-heavy-cotton-tee">cotton</a>, polyester, or blends) to find the perfect combination for your designs. </p>
+              </div>
+            </section>
+          </div>
+          <div class="csm-content"></div>
+          <div class="grid">
+            <div class="sorting col ng-star-inserted">
+              <span class="sort-label">Sort by</span>
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Popularity
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Popularity</a></li>
+                  <li><a class="dropdown-item" href="#">Latest</a></li>
+                  <li><a class="dropdown-item" href="#">Lowest price</a></li>
+                  <li><a class="dropdown-item" href="#">Higes price</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col--auto col--sm-4 col--md-3">
+              <div class="catalog-adaptable-filters">
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Target market</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Color</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Brading</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Print area</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Provider</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Size</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Price</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Thickness</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Decoration Method</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Brand</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Discount</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Shipping</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="ng-star-inserted">
+                  <div class="accordion ng-tns-c169544925-58 full-width ng-star-inserted" 
+                    style="display: block;
+                         border-style: solid;
+                         border-width: 0 0 1px 0;
+                         border-color: #e3e4e5;"
+                   tabindex="0" id="accordion-header-cdk-accordion-child-58" aria-expanded="false" aria-label="accordion-body-cdk-accordion-child-58">
+                    <button class="header ng-tns-c169544925-58 extra-small">
+                      <div class="title p-bold ng-tns-c169544925-58 ng-star-inserted">Customazition</div>
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="active-filter-tags col--12"></div>
+            <div class="page-content col--12 col--sm-8 col--md-9">
+              <ul class="grid ng-star-inserted">
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-card-container col--12 col--sm-6 col--md-4 ng-star-inserted">
+                  <div class="blueprint-card">
+                    <div class="product-card" aria-label="Unisex Jersey Short Sleeve Tee" >
+                      <a class="link secondary" href="#">
+                        <div class="img-wrap hover-img-wrap">
+                          <picture>
+                            <source  type="image/avif" 
+                            srcset="https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg">
+                            <source  type="image/png" srcset="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320"><img  loading="lazy" class="img" title="Unisex Jersey Short Sleeve Tee - 3001 - from Bella+Canvas" src="https://images.printify.com/api/catalog/65e05b74e9ba9173640195f3.jpg?s=320" alt="Unisex Jersey Short Sleeve Tee">
+                          </picture>
+                        </div>
+                        <div class="info">
+                          <p class="name body-text" style="font-size: 16px; font-family:Roboto,sans-serif">Unisex Jersey Short Sleeve Tee</p>
+                          <p class="brand small-text">
+                            <span class="detail ng-star-inserted" style="font-size: 14px; font-family:Roboto,sans-serif">By Bella+Canvas</span>
+                            <span class="detail ng-star-inserted" style="margin-left: 7px;">3001</span>
+                          </p>
+                          <div class="price ng-star-inserted">
+                            <p class="body-text">From USD 10.16</p>
+                            <p class="premium small-text"> From USD 8.48 with Printify Premium </p>
+                          </div>
+                          <p class="small-text">
+                            <span class="detail ng-star-inserted">9&nbsp;sizes</span>
+                            <span class="detail ng-star-inserted">121&nbsp;colors</span>
+                            <span class="detail ng-star-inserted">13&nbsp;print providers</span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="page-order-number">
+                <nav class="pages">
+                  <div class="page-number ng-star-inserted">
+                    <div class="page-number link active ng-star-inserted">
+                      <a class="link secondary" href="#">
+                        <div class="link-text" style="display: flex; justify-content:center;color:#000">
+                          <span>1</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="page-number ng-star-inserted">
+                    <div class="page-number link active ng-star-inserted" style="background-color: #FFFF;">
+                      <a class="link secondary" href="#">
+                        <div class="link-text" style="display: flex; justify-content:center;color:#000">
+                          <span>2</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="page-number ng-star-inserted">
+                    <div class="page-number link active ng-star-inserted" style="background-color: #FFFF;">
+                      <a class="link secondary" href="#">
+                        <div class="link-text" style="display: flex; justify-content:center;color:#000">
+                          <span>3</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
